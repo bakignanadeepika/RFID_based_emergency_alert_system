@@ -1,6 +1,6 @@
 //This is the code for uploading the information into the RFID tag
-// This code belongs to GUBBALA SRI GANESH
-// 21BEC7184 - Vellore Institute of Technology, Andhra Pradesh
+// This code belongs to BAKI GNANA DEEPIKA
+// 21BEC7254 - Vellore Institute of Technology, Andhra Pradesh
 
 #include <SPI.h>
 #include <MFRC522.h>
@@ -15,7 +15,7 @@ MFRC522::MIFARE_Key key;
 int blockNum = 2;  
 /* This is the actual data which is 
 going to be written into the card */
-byte blockData [16] = {"SriGanesh"};
+byte blockData [16] = {"DEEPIKA"};
 //-----------------------------------------
 /* Create array to read data from Block */
 /* Length of buffer should be 2 Bytes 
